@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+   <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> -->
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="your-link.html" class="nav-text">TechMonkey</a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa-regular fa-rectangle-xmark" onclick= "hideMenu()"></i> <!-- close button -->
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars menu-icon" onclick= "showMenu()"></i> <!-- menu button -->
+        </nav>
+            <div class = "text-box">
+                <h1>Tech Made Easy for Kids and Teens</h1>
+                <p>Learning about advanced tech topics doesn't have to be hard. Check out our articles for clear and simplified insights <br> on blockchain, machine learning and more!
+                </p>
+                <a href="" class="hero-btn">Visit our Blog tab to learn more!</a>
+        
+        
+            </div>
+        
+    </section>
+
+<!-- course -->
+<section class = "course">
+    <h1>Content We offer </h1>
+    <p> monkey monkey monkey man </p>
+    
+    <div class = "row">
+        <div class = "course-col">
+            <h3>Tech Basics</h3>
+            <p>Introduction to fundamental tech concepts</p>
+            
+        </div>
+        <div class = "course-col">
+            <h3>Advanced Topics</h3>
+            <p> monkeymonkeymonks</p>
+        </div>
+        <div class = "course-col">
+            <h3>Interactive Learning</h3>
+            <p> monkeymonkeymonks</p>
+            
+        </div>
+    
+    </div>
+    
+</section>
+    
+<!-- campus -->
+<section class="campus">
+    <h1>Discover More</h1>
+    <p> monkey ooga booga </p>
+    <div class ="row">
+        <div class="campus-col">
+            <img src = "images/Sect2A2.png">
+            <div class="layer">
+                <h3>LATEST ARTICLES</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src = "images/Sect2B.png">
+            <div class="layer">
+                <h3>FEATURED TOPICS</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src = "images/Sect2C2.png">
+            <div class="layer">
+                <h3>JOIN US</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- faciliites -->
+<section class="facilities">
+    <h1>In-Depth Learning</h1>
+    <p> monks</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/Sect3A.png">
+            <h3>Real-World Applications</h3>
+            <p> Readers use concepts explained in articles as a foundation to apply in real coding projects. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Sect3B.png">
+            <h3>Coding Opportunities</h3>
+            <p>We actively post about upcoming coding challenges and hackathons for elementary and high school students to ensure our readers are aware of the vast opportunities available. Be sure to check back!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Sect3C2.png">
+            <h3>Expert Insights</h3>
+            <p>Gain insights from industry experts. Our articles feature interviews and teachings from computer science professors and leading educators.</p>
+        </div>
+    
+    </div>
+
+</section>
+<!-- Testimonials -->
+<section class="testimonials">
+     <h1>What Our Readers Say</h1>
+    <p> monks</p>
+    <div class ="row">
+        <div class= "testimonial-col">
+            <img src= "images/logo.png">
+            <div>
+                <p> monks</p>
+                <h3> christine berksley</h3>
+            </div>
+        </div>
+        <div class= "testimonial-col">
+            <img src= "images/logo.png">
+            <div>
+                <p> monks</p>
+                <h3> christine berksley</h3>
+            </div>
+        </div>
+        <div class= "testimonial-col">
+            <img src= "images/logo.png">
+            <div>
+                <p> monks</p>
+                <h3> christine berksley</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    
+    
+    
+    
+    
+<!-- JS for toggling menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+        
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+</script>
+</body>
+</html>
